@@ -20,7 +20,6 @@
 @implementation InterfaceController
 
 NSString *const BusStopId = @"South%20Gosforth%20Roundabout%23132804";
-
 // South%20Gosforth%20Roundabout%23132804
 
 // obtain your BusStopId from http://app.arrivabus.co.uk/journeyplanner/stboard/en?ld=std&OK#focus - find your bus stop, click 'Show Arrivals', and deconstruct the URL (manually 😓 to find the ID you need).
@@ -141,6 +140,13 @@ NSString *const BusStopId = @"South%20Gosforth%20Roundabout%23132804";
                   [liveBusses addObject:dict];
               }
           }
+          
+          // do some sorting...
+          liveBusses = [NSMutableArray arrayWithArray:[liveBusses sortedArrayUsingComparator:^NSComparisonResult(id a, id b) {
+              NSString *first = [(NSDictionary*)a objectForKey:@"busTime"];
+              NSString *second = [(NSDictionary*)b objectForKey:@"busTime"];
+              return [first compare:second];
+          }]];
           
           // we only care about live busses.
           array = liveBusses;
