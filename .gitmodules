@@ -1,0 +1,3 @@
+[submodule "HTMLReader"]
+	path = HTMLReader
+	url = https://github.com/nolanw/HTMLReader.git
