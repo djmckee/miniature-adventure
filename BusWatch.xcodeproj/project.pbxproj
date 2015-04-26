@@ -1,0 +1,694 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA5DD1831AED020C00792FC8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA5DD1821AED020C00792FC8 /* main.m */; };
+		BA5DD1861AED020C00792FC8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA5DD1851AED020C00792FC8 /* AppDelegate.m */; };
+		BA5DD1891AED020C00792FC8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA5DD1881AED020C00792FC8 /* ViewController.m */; };
+		BA5DD18C1AED020C00792FC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA5DD18A1AED020C00792FC8 /* Main.storyboard */; };
+		BA5DD18E1AED020C00792FC8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA5DD18D1AED020C00792FC8 /* Images.xcassets */; };
+		BA5DD1911AED020C00792FC8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA5DD18F1AED020C00792FC8 /* LaunchScreen.xib */; };
+		BA5DD1B01AED022C00792FC8 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA5DD1AF1AED022C00792FC8 /* InterfaceController.m */; };
+		BA5DD1B21AED022C00792FC8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA5DD1B11AED022C00792FC8 /* Images.xcassets */; };
+		BA5DD1B61AED022D00792FC8 /* BusWatch WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = BA5DD1B51AED022D00792FC8 /* BusWatch WatchKit App.app */; };
+		BA5DD1BE1AED022D00792FC8 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA5DD1BC1AED022D00792FC8 /* Interface.storyboard */; };
+		BA5DD1C01AED022D00792FC8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA5DD1BF1AED022D00792FC8 /* Images.xcassets */; };
+		BA5DD1C31AED022D00792FC8 /* BusWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = BA5DD1AA1AED022C00792FC8 /* BusWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BA5DD2061AED4D0D00792FC8 /* BusCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA5DD2051AED4D0D00792FC8 /* BusCell.m */; };
+		BACA9F311AED55B400C2D067 /* HTMLComment.m in Sources */ = {isa = PBXBuildFile; fileRef = BACA9F0B1AED55B400C2D067 /* HTMLComment.m */; };
+		BACA9F321AED55B400C2D067 /* HTMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = BACA9F0D1AED55B400C2D067 /* HTMLDocument.m */; };
+		BACA9F331AED55B400C2D067 /* HTMLDocumentType.m in Sources */ = {isa = PBXBuildFile; fileRef = BACA9F0F1AED55B400C2D067 /* HTMLDocumentType.m */; };
+		BACA9F341AED55B400C2D067 /* HTMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = BACA9F111AED55B400C2D067 /* HTMLElement.m */; };
+		BACA9F351AED55B400C2D067 /* HTMLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = BACA9F131AED55B400C2D067 /* HTMLEncoding.m */; };
+		BACA9F361AED55B400C2D067 /* HTMLEntities.m in Sources */ = {isa = PBXBuildFile; fileRef = BACA9F151AED55B400C2D067 /* HTMLEntities.m */; };
+		BACA9F371AED55B400C2D067 /* HTMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = BACA9F181AED55B400C2D067 /* HTMLNode.m */; };
+		BACA9F381AED55B400C2D067 /* HTMLOrderedDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = BACA9F1A1AED55B400C2D067 /* HTMLOrderedDictionary.m */; };
+		BACA9F391AED55B400C2D067 /* HTMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = BACA9F1C1AED55B400C2D067 /* HTMLParser.m */; };
+		BACA9F3A1AED55B400C2D067 /* HTMLPreprocessedInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = BACA9F1E1AED55B400C2D067 /* HTMLPreprocessedInputStream.m */; };
+		BACA9F3B1AED55B400C2D067 /* HTMLSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = BACA9F221AED55B400C2D067 /* HTMLSelector.m */; };
+		BACA9F3C1AED55B400C2D067 /* HTMLSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = BACA9F241AED55B400C2D067 /* HTMLSerialization.m */; };
+		BACA9F3D1AED55B400C2D067 /* HTMLString.m in Sources */ = {isa = PBXBuildFile; fileRef = BACA9F261AED55B400C2D067 /* HTMLString.m */; };
+		BACA9F3E1AED55B400C2D067 /* HTMLTextNode.m in Sources */ = {isa = PBXBuildFile; fileRef = BACA9F291AED55B400C2D067 /* HTMLTextNode.m */; };
+		BACA9F3F1AED55B400C2D067 /* HTMLTokenizer.m in Sources */ = {isa = PBXBuildFile; fileRef = BACA9F2B1AED55B400C2D067 /* HTMLTokenizer.m */; };
+		BACA9F401AED55B400C2D067 /* HTMLTreeEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = BACA9F2E1AED55B400C2D067 /* HTMLTreeEnumerator.m */; };
+		BACA9F411AED55B400C2D067 /* NSString+HTMLEntities.m in Sources */ = {isa = PBXBuildFile; fileRef = BACA9F301AED55B400C2D067 /* NSString+HTMLEntities.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA5DD1B71AED022D00792FC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA5DD1751AED020C00792FC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA5DD1B41AED022D00792FC8;
+			remoteInfo = "BusWatch WatchKit App";
+		};
+		BA5DD1C11AED022D00792FC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA5DD1751AED020C00792FC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA5DD1A91AED022C00792FC8;
+			remoteInfo = "BusWatch WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BA5DD1CA1AED022D00792FC8 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BA5DD1C31AED022D00792FC8 /* BusWatch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BA5DD17D1AED020C00792FC8 /* BusWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BusWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA5DD1811AED020C00792FC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA5DD1821AED020C00792FC8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BA5DD1841AED020C00792FC8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BA5DD1851AED020C00792FC8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BA5DD1871AED020C00792FC8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BA5DD1881AED020C00792FC8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BA5DD18B1AED020C00792FC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA5DD18D1AED020C00792FC8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BA5DD1901AED020C00792FC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BA5DD1AA1AED022C00792FC8 /* BusWatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "BusWatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA5DD1AD1AED022C00792FC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA5DD1AE1AED022C00792FC8 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		BA5DD1AF1AED022C00792FC8 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		BA5DD1B11AED022C00792FC8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BA5DD1B51AED022D00792FC8 /* BusWatch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BusWatch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA5DD1BB1AED022D00792FC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA5DD1BD1AED022D00792FC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		BA5DD1BF1AED022D00792FC8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BA5DD2041AED4D0D00792FC8 /* BusCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusCell.h; sourceTree = "<group>"; };
+		BA5DD2051AED4D0D00792FC8 /* BusCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusCell.m; sourceTree = "<group>"; };
+		BACA9F0A1AED55B400C2D067 /* HTMLComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTMLComment.h; path = HTMLReader/Code/HTMLComment.h; sourceTree = SOURCE_ROOT; };
+		BACA9F0B1AED55B400C2D067 /* HTMLComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTMLComment.m; path = HTMLReader/Code/HTMLComment.m; sourceTree = SOURCE_ROOT; };
+		BACA9F0C1AED55B400C2D067 /* HTMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTMLDocument.h; path = HTMLReader/Code/HTMLDocument.h; sourceTree = SOURCE_ROOT; };
+		BACA9F0D1AED55B400C2D067 /* HTMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTMLDocument.m; path = HTMLReader/Code/HTMLDocument.m; sourceTree = SOURCE_ROOT; };
+		BACA9F0E1AED55B400C2D067 /* HTMLDocumentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTMLDocumentType.h; path = HTMLReader/Code/HTMLDocumentType.h; sourceTree = SOURCE_ROOT; };
+		BACA9F0F1AED55B400C2D067 /* HTMLDocumentType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTMLDocumentType.m; path = HTMLReader/Code/HTMLDocumentType.m; sourceTree = SOURCE_ROOT; };
+		BACA9F101AED55B400C2D067 /* HTMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTMLElement.h; path = HTMLReader/Code/HTMLElement.h; sourceTree = SOURCE_ROOT; };
+		BACA9F111AED55B400C2D067 /* HTMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTMLElement.m; path = HTMLReader/Code/HTMLElement.m; sourceTree = SOURCE_ROOT; };
+		BACA9F121AED55B400C2D067 /* HTMLEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTMLEncoding.h; path = HTMLReader/Code/HTMLEncoding.h; sourceTree = SOURCE_ROOT; };
+		BACA9F131AED55B400C2D067 /* HTMLEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTMLEncoding.m; path = HTMLReader/Code/HTMLEncoding.m; sourceTree = SOURCE_ROOT; };
+		BACA9F141AED55B400C2D067 /* HTMLEntities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTMLEntities.h; path = HTMLReader/Code/HTMLEntities.h; sourceTree = SOURCE_ROOT; };
+		BACA9F151AED55B400C2D067 /* HTMLEntities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTMLEntities.m; path = HTMLReader/Code/HTMLEntities.m; sourceTree = SOURCE_ROOT; };
+		BACA9F161AED55B400C2D067 /* HTMLNamespace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTMLNamespace.h; path = HTMLReader/Code/HTMLNamespace.h; sourceTree = SOURCE_ROOT; };
+		BACA9F171AED55B400C2D067 /* HTMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTMLNode.h; path = HTMLReader/Code/HTMLNode.h; sourceTree = SOURCE_ROOT; };
+		BACA9F181AED55B400C2D067 /* HTMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTMLNode.m; path = HTMLReader/Code/HTMLNode.m; sourceTree = SOURCE_ROOT; };
+		BACA9F191AED55B400C2D067 /* HTMLOrderedDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTMLOrderedDictionary.h; path = HTMLReader/Code/HTMLOrderedDictionary.h; sourceTree = SOURCE_ROOT; };
+		BACA9F1A1AED55B400C2D067 /* HTMLOrderedDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTMLOrderedDictionary.m; path = HTMLReader/Code/HTMLOrderedDictionary.m; sourceTree = SOURCE_ROOT; };
+		BACA9F1B1AED55B400C2D067 /* HTMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTMLParser.h; path = HTMLReader/Code/HTMLParser.h; sourceTree = SOURCE_ROOT; };
+		BACA9F1C1AED55B400C2D067 /* HTMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTMLParser.m; path = HTMLReader/Code/HTMLParser.m; sourceTree = SOURCE_ROOT; };
+		BACA9F1D1AED55B400C2D067 /* HTMLPreprocessedInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTMLPreprocessedInputStream.h; path = HTMLReader/Code/HTMLPreprocessedInputStream.h; sourceTree = SOURCE_ROOT; };
+		BACA9F1E1AED55B400C2D067 /* HTMLPreprocessedInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTMLPreprocessedInputStream.m; path = HTMLReader/Code/HTMLPreprocessedInputStream.m; sourceTree = SOURCE_ROOT; };
+		BACA9F1F1AED55B400C2D067 /* HTMLQuirksMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTMLQuirksMode.h; path = HTMLReader/Code/HTMLQuirksMode.h; sourceTree = SOURCE_ROOT; };
+		BACA9F201AED55B400C2D067 /* HTMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTMLReader.h; path = HTMLReader/Code/HTMLReader.h; sourceTree = SOURCE_ROOT; };
+		BACA9F211AED55B400C2D067 /* HTMLSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTMLSelector.h; path = HTMLReader/Code/HTMLSelector.h; sourceTree = SOURCE_ROOT; };
+		BACA9F221AED55B400C2D067 /* HTMLSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTMLSelector.m; path = HTMLReader/Code/HTMLSelector.m; sourceTree = SOURCE_ROOT; };
+		BACA9F231AED55B400C2D067 /* HTMLSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTMLSerialization.h; path = HTMLReader/Code/HTMLSerialization.h; sourceTree = SOURCE_ROOT; };
+		BACA9F241AED55B400C2D067 /* HTMLSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTMLSerialization.m; path = HTMLReader/Code/HTMLSerialization.m; sourceTree = SOURCE_ROOT; };
+		BACA9F251AED55B400C2D067 /* HTMLString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTMLString.h; path = HTMLReader/Code/HTMLString.h; sourceTree = SOURCE_ROOT; };
+		BACA9F261AED55B400C2D067 /* HTMLString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTMLString.m; path = HTMLReader/Code/HTMLString.m; sourceTree = SOURCE_ROOT; };
+		BACA9F271AED55B400C2D067 /* HTMLSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTMLSupport.h; path = HTMLReader/Code/HTMLSupport.h; sourceTree = SOURCE_ROOT; };
+		BACA9F281AED55B400C2D067 /* HTMLTextNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTMLTextNode.h; path = HTMLReader/Code/HTMLTextNode.h; sourceTree = SOURCE_ROOT; };
+		BACA9F291AED55B400C2D067 /* HTMLTextNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTMLTextNode.m; path = HTMLReader/Code/HTMLTextNode.m; sourceTree = SOURCE_ROOT; };
+		BACA9F2A1AED55B400C2D067 /* HTMLTokenizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTMLTokenizer.h; path = HTMLReader/Code/HTMLTokenizer.h; sourceTree = SOURCE_ROOT; };
+		BACA9F2B1AED55B400C2D067 /* HTMLTokenizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTMLTokenizer.m; path = HTMLReader/Code/HTMLTokenizer.m; sourceTree = SOURCE_ROOT; };
+		BACA9F2C1AED55B400C2D067 /* HTMLTokenizerState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTMLTokenizerState.h; path = HTMLReader/Code/HTMLTokenizerState.h; sourceTree = SOURCE_ROOT; };
+		BACA9F2D1AED55B400C2D067 /* HTMLTreeEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTMLTreeEnumerator.h; path = HTMLReader/Code/HTMLTreeEnumerator.h; sourceTree = SOURCE_ROOT; };
+		BACA9F2E1AED55B400C2D067 /* HTMLTreeEnumerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTMLTreeEnumerator.m; path = HTMLReader/Code/HTMLTreeEnumerator.m; sourceTree = SOURCE_ROOT; };
+		BACA9F2F1AED55B400C2D067 /* NSString+HTMLEntities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+HTMLEntities.h"; path = "HTMLReader/Code/NSString+HTMLEntities.h"; sourceTree = SOURCE_ROOT; };
+		BACA9F301AED55B400C2D067 /* NSString+HTMLEntities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+HTMLEntities.m"; path = "HTMLReader/Code/NSString+HTMLEntities.m"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA5DD17A1AED020C00792FC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA5DD1A71AED022C00792FC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA5DD1741AED020C00792FC8 = {
+			isa = PBXGroup;
+			children = (
+				BA5DD17F1AED020C00792FC8 /* BusWatch */,
+				BA5DD1AB1AED022C00792FC8 /* BusWatch WatchKit Extension */,
+				BA5DD1B91AED022D00792FC8 /* BusWatch WatchKit App */,
+				BA5DD17E1AED020C00792FC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA5DD17E1AED020C00792FC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA5DD17D1AED020C00792FC8 /* BusWatch.app */,
+				BA5DD1AA1AED022C00792FC8 /* BusWatch WatchKit Extension.appex */,
+				BA5DD1B51AED022D00792FC8 /* BusWatch WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA5DD17F1AED020C00792FC8 /* BusWatch */ = {
+			isa = PBXGroup;
+			children = (
+				BA5DD1841AED020C00792FC8 /* AppDelegate.h */,
+				BA5DD1851AED020C00792FC8 /* AppDelegate.m */,
+				BA5DD1871AED020C00792FC8 /* ViewController.h */,
+				BA5DD1881AED020C00792FC8 /* ViewController.m */,
+				BA5DD18A1AED020C00792FC8 /* Main.storyboard */,
+				BA5DD18D1AED020C00792FC8 /* Images.xcassets */,
+				BA5DD18F1AED020C00792FC8 /* LaunchScreen.xib */,
+				BA5DD1801AED020C00792FC8 /* Supporting Files */,
+			);
+			path = BusWatch;
+			sourceTree = "<group>";
+		};
+		BA5DD1801AED020C00792FC8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA5DD1811AED020C00792FC8 /* Info.plist */,
+				BA5DD1821AED020C00792FC8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BA5DD1AB1AED022C00792FC8 /* BusWatch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				BACA9F091AED55AB00C2D067 /* HTMLReader */,
+				BA5DD1AE1AED022C00792FC8 /* InterfaceController.h */,
+				BA5DD1AF1AED022C00792FC8 /* InterfaceController.m */,
+				BA5DD1B11AED022C00792FC8 /* Images.xcassets */,
+				BA5DD1AC1AED022C00792FC8 /* Supporting Files */,
+				BA5DD2041AED4D0D00792FC8 /* BusCell.h */,
+				BA5DD2051AED4D0D00792FC8 /* BusCell.m */,
+			);
+			path = "BusWatch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		BA5DD1AC1AED022C00792FC8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA5DD1AD1AED022C00792FC8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BA5DD1B91AED022D00792FC8 /* BusWatch WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				BA5DD1BC1AED022D00792FC8 /* Interface.storyboard */,
+				BA5DD1BF1AED022D00792FC8 /* Images.xcassets */,
+				BA5DD1BA1AED022D00792FC8 /* Supporting Files */,
+			);
+			path = "BusWatch WatchKit App";
+			sourceTree = "<group>";
+		};
+		BA5DD1BA1AED022D00792FC8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA5DD1BB1AED022D00792FC8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BACA9F091AED55AB00C2D067 /* HTMLReader */ = {
+			isa = PBXGroup;
+			children = (
+				BACA9F0A1AED55B400C2D067 /* HTMLComment.h */,
+				BACA9F0B1AED55B400C2D067 /* HTMLComment.m */,
+				BACA9F0C1AED55B400C2D067 /* HTMLDocument.h */,
+				BACA9F0D1AED55B400C2D067 /* HTMLDocument.m */,
+				BACA9F0E1AED55B400C2D067 /* HTMLDocumentType.h */,
+				BACA9F0F1AED55B400C2D067 /* HTMLDocumentType.m */,
+				BACA9F101AED55B400C2D067 /* HTMLElement.h */,
+				BACA9F111AED55B400C2D067 /* HTMLElement.m */,
+				BACA9F121AED55B400C2D067 /* HTMLEncoding.h */,
+				BACA9F131AED55B400C2D067 /* HTMLEncoding.m */,
+				BACA9F141AED55B400C2D067 /* HTMLEntities.h */,
+				BACA9F151AED55B400C2D067 /* HTMLEntities.m */,
+				BACA9F161AED55B400C2D067 /* HTMLNamespace.h */,
+				BACA9F171AED55B400C2D067 /* HTMLNode.h */,
+				BACA9F181AED55B400C2D067 /* HTMLNode.m */,
+				BACA9F191AED55B400C2D067 /* HTMLOrderedDictionary.h */,
+				BACA9F1A1AED55B400C2D067 /* HTMLOrderedDictionary.m */,
+				BACA9F1B1AED55B400C2D067 /* HTMLParser.h */,
+				BACA9F1C1AED55B400C2D067 /* HTMLParser.m */,
+				BACA9F1D1AED55B400C2D067 /* HTMLPreprocessedInputStream.h */,
+				BACA9F1E1AED55B400C2D067 /* HTMLPreprocessedInputStream.m */,
+				BACA9F1F1AED55B400C2D067 /* HTMLQuirksMode.h */,
+				BACA9F201AED55B400C2D067 /* HTMLReader.h */,
+				BACA9F211AED55B400C2D067 /* HTMLSelector.h */,
+				BACA9F221AED55B400C2D067 /* HTMLSelector.m */,
+				BACA9F231AED55B400C2D067 /* HTMLSerialization.h */,
+				BACA9F241AED55B400C2D067 /* HTMLSerialization.m */,
+				BACA9F251AED55B400C2D067 /* HTMLString.h */,
+				BACA9F261AED55B400C2D067 /* HTMLString.m */,
+				BACA9F271AED55B400C2D067 /* HTMLSupport.h */,
+				BACA9F281AED55B400C2D067 /* HTMLTextNode.h */,
+				BACA9F291AED55B400C2D067 /* HTMLTextNode.m */,
+				BACA9F2A1AED55B400C2D067 /* HTMLTokenizer.h */,
+				BACA9F2B1AED55B400C2D067 /* HTMLTokenizer.m */,
+				BACA9F2C1AED55B400C2D067 /* HTMLTokenizerState.h */,
+				BACA9F2D1AED55B400C2D067 /* HTMLTreeEnumerator.h */,
+				BACA9F2E1AED55B400C2D067 /* HTMLTreeEnumerator.m */,
+				BACA9F2F1AED55B400C2D067 /* NSString+HTMLEntities.h */,
+				BACA9F301AED55B400C2D067 /* NSString+HTMLEntities.m */,
+			);
+			name = HTMLReader;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA5DD17C1AED020C00792FC8 /* BusWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA5DD1A01AED020C00792FC8 /* Build configuration list for PBXNativeTarget "BusWatch" */;
+			buildPhases = (
+				BA5DD1791AED020C00792FC8 /* Sources */,
+				BA5DD17A1AED020C00792FC8 /* Frameworks */,
+				BA5DD17B1AED020C00792FC8 /* Resources */,
+				BA5DD1CA1AED022D00792FC8 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA5DD1C21AED022D00792FC8 /* PBXTargetDependency */,
+			);
+			name = BusWatch;
+			productName = BusWatch;
+			productReference = BA5DD17D1AED020C00792FC8 /* BusWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA5DD1A91AED022C00792FC8 /* BusWatch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA5DD1C71AED022D00792FC8 /* Build configuration list for PBXNativeTarget "BusWatch WatchKit Extension" */;
+			buildPhases = (
+				BA5DD1A61AED022C00792FC8 /* Sources */,
+				BA5DD1A71AED022C00792FC8 /* Frameworks */,
+				BA5DD1A81AED022C00792FC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA5DD1B81AED022D00792FC8 /* PBXTargetDependency */,
+			);
+			name = "BusWatch WatchKit Extension";
+			productName = "BusWatch WatchKit Extension";
+			productReference = BA5DD1AA1AED022C00792FC8 /* BusWatch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		BA5DD1B41AED022D00792FC8 /* BusWatch WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA5DD1C41AED022D00792FC8 /* Build configuration list for PBXNativeTarget "BusWatch WatchKit App" */;
+			buildPhases = (
+				BA5DD1B31AED022D00792FC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BusWatch WatchKit App";
+			productName = "BusWatch WatchKit App";
+			productReference = BA5DD1B51AED022D00792FC8 /* BusWatch WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA5DD1751AED020C00792FC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = djmckee;
+				TargetAttributes = {
+					BA5DD17C1AED020C00792FC8 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					BA5DD1A91AED022C00792FC8 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					BA5DD1B41AED022D00792FC8 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = BA5DD1781AED020C00792FC8 /* Build configuration list for PBXProject "BusWatch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA5DD1741AED020C00792FC8;
+			productRefGroup = BA5DD17E1AED020C00792FC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA5DD17C1AED020C00792FC8 /* BusWatch */,
+				BA5DD1A91AED022C00792FC8 /* BusWatch WatchKit Extension */,
+				BA5DD1B41AED022D00792FC8 /* BusWatch WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA5DD17B1AED020C00792FC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA5DD18C1AED020C00792FC8 /* Main.storyboard in Resources */,
+				BA5DD1911AED020C00792FC8 /* LaunchScreen.xib in Resources */,
+				BA5DD18E1AED020C00792FC8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA5DD1A81AED022C00792FC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA5DD1B21AED022C00792FC8 /* Images.xcassets in Resources */,
+				BA5DD1B61AED022D00792FC8 /* BusWatch WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA5DD1B31AED022D00792FC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA5DD1BE1AED022D00792FC8 /* Interface.storyboard in Resources */,
+				BA5DD1C01AED022D00792FC8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA5DD1791AED020C00792FC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA5DD1891AED020C00792FC8 /* ViewController.m in Sources */,
+				BA5DD1861AED020C00792FC8 /* AppDelegate.m in Sources */,
+				BA5DD1831AED020C00792FC8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA5DD1A61AED022C00792FC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BACA9F3D1AED55B400C2D067 /* HTMLString.m in Sources */,
+				BACA9F331AED55B400C2D067 /* HTMLDocumentType.m in Sources */,
+				BACA9F3C1AED55B400C2D067 /* HTMLSerialization.m in Sources */,
+				BACA9F411AED55B400C2D067 /* NSString+HTMLEntities.m in Sources */,
+				BACA9F391AED55B400C2D067 /* HTMLParser.m in Sources */,
+				BACA9F351AED55B400C2D067 /* HTMLEncoding.m in Sources */,
+				BACA9F341AED55B400C2D067 /* HTMLElement.m in Sources */,
+				BACA9F3B1AED55B400C2D067 /* HTMLSelector.m in Sources */,
+				BACA9F3A1AED55B400C2D067 /* HTMLPreprocessedInputStream.m in Sources */,
+				BACA9F361AED55B400C2D067 /* HTMLEntities.m in Sources */,
+				BACA9F3E1AED55B400C2D067 /* HTMLTextNode.m in Sources */,
+				BACA9F311AED55B400C2D067 /* HTMLComment.m in Sources */,
+				BACA9F371AED55B400C2D067 /* HTMLNode.m in Sources */,
+				BACA9F401AED55B400C2D067 /* HTMLTreeEnumerator.m in Sources */,
+				BACA9F381AED55B400C2D067 /* HTMLOrderedDictionary.m in Sources */,
+				BACA9F321AED55B400C2D067 /* HTMLDocument.m in Sources */,
+				BA5DD2061AED4D0D00792FC8 /* BusCell.m in Sources */,
+				BA5DD1B01AED022C00792FC8 /* InterfaceController.m in Sources */,
+				BACA9F3F1AED55B400C2D067 /* HTMLTokenizer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA5DD1B81AED022D00792FC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA5DD1B41AED022D00792FC8 /* BusWatch WatchKit App */;
+			targetProxy = BA5DD1B71AED022D00792FC8 /* PBXContainerItemProxy */;
+		};
+		BA5DD1C21AED022D00792FC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA5DD1A91AED022C00792FC8 /* BusWatch WatchKit Extension */;
+			targetProxy = BA5DD1C11AED022D00792FC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA5DD18A1AED020C00792FC8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA5DD18B1AED020C00792FC8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA5DD18F1AED020C00792FC8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA5DD1901AED020C00792FC8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		BA5DD1BC1AED022D00792FC8 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA5DD1BD1AED022D00792FC8 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA5DD19E1AED020C00792FC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BA5DD19F1AED020C00792FC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA5DD1A11AED020C00792FC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = BusWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BA5DD1A21AED020C00792FC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = BusWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BA5DD1C51AED022D00792FC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = BusWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "BusWatch WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		BA5DD1C61AED022D00792FC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IBSC_MODULE = BusWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "BusWatch WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		BA5DD1C81AED022D00792FC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BusWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BA5DD1C91AED022D00792FC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "BusWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA5DD1781AED020C00792FC8 /* Build configuration list for PBXProject "BusWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA5DD19E1AED020C00792FC8 /* Debug */,
+				BA5DD19F1AED020C00792FC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA5DD1A01AED020C00792FC8 /* Build configuration list for PBXNativeTarget "BusWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA5DD1A11AED020C00792FC8 /* Debug */,
+				BA5DD1A21AED020C00792FC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA5DD1C41AED022D00792FC8 /* Build configuration list for PBXNativeTarget "BusWatch WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA5DD1C51AED022D00792FC8 /* Debug */,
+				BA5DD1C61AED022D00792FC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA5DD1C71AED022D00792FC8 /* Build configuration list for PBXNativeTarget "BusWatch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA5DD1C81AED022D00792FC8 /* Debug */,
+				BA5DD1C91AED022D00792FC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA5DD1751AED020C00792FC8 /* Project object */;
+}
